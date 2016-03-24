@@ -1,4 +1,4 @@
-FROM vektorlab/python3:latest
+FROM quay.io/vektorcloud/python3:latest
 
 RUN apk add --no-cache g++ libstdc++ python3-dev && \
     pip install jupyter && \
